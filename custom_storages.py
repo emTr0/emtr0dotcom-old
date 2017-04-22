@@ -11,3 +11,5 @@ class StaticStorage(S3BotoStorage, S3BotoStorageMixin):
 class MediaStorage(S3BotoStorage, S3BotoStorageMixin):
     location = settings.MEDIAFILES_LOCATION
 
+#class ThemeStorage(S3BotoStorage, S3BotoStorageMixin):
+#    location = settings.THEMEFILES_LOCATION
