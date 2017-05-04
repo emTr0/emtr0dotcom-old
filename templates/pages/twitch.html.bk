@@ -5,6 +5,7 @@
 {% block main %}{{ block.super }}
 
 {% editable page.richtextpage.content %}
+{{ page.richtextpage.content|richtext_filters|safe }}
 <center>
 <iframe src="https://player.twitch.tv/?channel=emtr0" frameborder="0" allowfullscreen="true" scrolling="no" 
 height="378" width="620"></iframe><a href="https://www.twitch.tv/emtr0?tt_medium=live_embed&tt_content=text_link" 
@@ -13,7 +14,8 @@ text-decoration:underline;">Watch live video from emTr0 on www.twitch.tv</a>
 <iframe src="https://www.twitch.tv/emtr0/chat?popout=" frameborder="0" scrolling="no" height="500" 
 width="620"></iframe>
 </center>
+<center><h1>Contests</h1></center>
+<center>No contests right now. Check back regularly just in case!</center>
 {% endeditable %}
 
 {% endblock %}
-
