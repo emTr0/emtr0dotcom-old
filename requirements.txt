@@ -28,7 +28,7 @@ pyparsing==2.2.0
 python-dateutil==2.6.0
 python-memcached==1.58
 pytz==2017.2
-requests==2.13.0
+requests==2.20.0
 requests-oauthlib==0.8.0
 s3transfer==0.1.10
 six==1.10.0
